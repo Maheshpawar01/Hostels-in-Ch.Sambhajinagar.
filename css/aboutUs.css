@@ -1,0 +1,101 @@
+body{
+overflow-x: hidden;
+}
+
+.aboutimg{
+    float: left;
+    width: 300px;
+
+    height: 350px;
+    margin-right: 60px;
+}
+
+.aboutinfo{
+    position: absolute;
+    width: 60%;
+    left: 15%;
+    right: 15%;
+    top: 30%;
+    background-color:rgb(255, 247, 247);
+    padding: 30px;
+    
+}
+
+/* footer css */
+
+footer{
+    background-color:rgb(22, 22, 48);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: white;
+    margin-top: 50rem;
+   
+  }
+
+  .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+
+  .footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+  }
+
+  .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0 ;
+  }
+
+  .socials li{
+    margin: 0 10px;
+  }
+  
+  .socials a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .socials a i{
+    transition: color .4s ease;
+    font-size: 1.1rem;
+
+  }
+
+  .socials a:hover i{
+    color: rgb(89, 32, 129);
+  }
+
+  .footer-bottom{
+    background-color: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    text-transform: capitalize;
+
+  }
+
+  .footer-bottom span{
+    text-transform: uppercase;
+    opacity: 3;
+    font-weight: 200;
+  }
+
+  /* About ME css */
+  
